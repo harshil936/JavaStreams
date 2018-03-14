@@ -27,7 +27,7 @@ public class TweetProc {
 
 	
 	public static void main(String[] args) {
-		String PathName = "/home/harshil/eclipse-workspace/hw3/test.csv"; 
+		String PathName = "/home/harshil/eclipse-workspace/hw3/tweets.csv"; 
 		System.out.println(getPerTweeterCount(PathName));
 		System.out.println(getPerTaggeeCount(PathName));
 		System.out.println(getTweeterURLtweetCount(PathName));
